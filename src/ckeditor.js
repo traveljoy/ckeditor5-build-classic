@@ -77,6 +77,7 @@ ClassicEditor.defaultConfig = {
 			'alignment',
 			'blockQuote',
 			'insertTable',
+			'|',
 			'undo',
 			'redo'
 		]
