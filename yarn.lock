@@ -33,6 +33,14 @@
     "@ckeditor/ckeditor5-core" "^12.0.0"
     "@ckeditor/ckeditor5-upload" "^11.0.0"
 
+"@ckeditor/ckeditor5-alignment@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-alignment/-/ckeditor5-alignment-11.0.0.tgz#ae5f558fe0c93a3f8264343a01275c7f70ad331a"
+  integrity sha512-rn1SOyqBoBF8yxzOJz3KQ+RdStp+s6TpOMUkXZiVve5Z1Cp7zLmW3EJuQi4EvIfYz5texQfzx2VOufzkKoguew==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^12.0.0"
+    "@ckeditor/ckeditor5-ui" "^12.0.0"
+
 "@ckeditor/ckeditor5-autoformat@^11.0.0":
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-autoformat/-/ckeditor5-autoformat-11.0.0.tgz#7c9b82d05ffca9c0c807e3f9f58b5521c9cce6d1"
