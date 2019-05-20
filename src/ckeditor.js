@@ -35,65 +35,65 @@ export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
-  Alignment,
-  Autoformat,
-  BlockQuote,
-  Bold,
-  CKFinder,
-  EasyImage,
-  Essentials,
-  Font,
-  Heading,
-  Highlight,
-  Image,
-  ImageCaption,
-  ImageStyle,
-  ImageToolbar,
-  ImageUpload,
-  Italic,
-  Link,
-  List,
-  MediaEmbed,
-  Paragraph,
-  PasteFromOffice,
-  Table,
-  TableToolbar,
-  UploadAdapter
+	Alignment,
+	Autoformat,
+	BlockQuote,
+	Bold,
+	CKFinder,
+	EasyImage,
+	Essentials,
+	Font,
+	Heading,
+	Highlight,
+	Image,
+	ImageCaption,
+	ImageStyle,
+	ImageToolbar,
+	ImageUpload,
+	Italic,
+	Link,
+	List,
+	MediaEmbed,
+	Paragraph,
+	PasteFromOffice,
+	Table,
+	TableToolbar,
+	UploadAdapter
 ];
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
-  toolbar: {
-  items: [
-      'heading',
-      '|',
-      'bold',
-      'italic',
-      'link',
-      '|',
-      'fontFamily',
-      'fontSize',
-      'highlight',
-      '|',
-      'bulletedList',
-      'numberedList',
-      'alignment',
-      'blockQuote',
-      'insertTable',
-      '|',
-      'undo',
-      'redo',
-      '|',
-      'imageUpload'
-  ]
-  },
-  table: {
-  contentToolbar: [
-  'tableColumn',
-  'tableRow',
-  'mergeTableCells'
-  ]
-  },
-  // This value must be kept in sync with the language defined in webpack.config.js.
-  language: 'en'
+	toolbar: {
+		items: [
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'link',
+			'|',
+			'fontFamily',
+			'fontSize',
+			'highlight',
+			'|',
+			'bulletedList',
+			'numberedList',
+			'alignment',
+			'blockQuote',
+			'insertTable',
+			'|',
+			'undo',
+			'redo',
+			'|',
+			'imageUpload'
+		]
+	},
+	table: {
+		contentToolbar: [
+			'tableColumn',
+			'tableRow',
+			'mergeTableCells'
+		]
+	},
+	// This value must be kept in sync with the language defined in webpack.config.js.
+	language: 'en'
 };
