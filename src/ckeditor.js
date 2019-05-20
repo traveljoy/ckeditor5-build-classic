@@ -15,6 +15,7 @@ import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
@@ -34,61 +35,65 @@ export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
-	Alignment,
-	Autoformat,
-	BlockQuote,
-	Bold,
-	CKFinder,
-	EasyImage,
-	Essentials,
-	Font,
-	Heading,
-	Image,
-	ImageCaption,
-	ImageStyle,
-	ImageToolbar,
-	ImageUpload,
-	Italic,
-	Link,
-	List,
-	MediaEmbed,
-	Paragraph,
-	PasteFromOffice,
-	Table,
-	TableToolbar,
-	UploadAdapter
+  Alignment,
+  Autoformat,
+  BlockQuote,
+  Bold,
+  CKFinder,
+  EasyImage,
+  Essentials,
+  Font,
+  Heading,
+  Highlight,
+  Image,
+  ImageCaption,
+  ImageStyle,
+  ImageToolbar,
+  ImageUpload,
+  Italic,
+  Link,
+  List,
+  MediaEmbed,
+  Paragraph,
+  PasteFromOffice,
+  Table,
+  TableToolbar,
+  UploadAdapter
 ];
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
-	toolbar: {
-		items: [
-			'heading',
-			'|',
-			'bold',
-			'italic',
-			'link',
-			'|',
-			'fontFamily',
-			'fontSize',
-			'|',
-			'bulletedList',
-			'numberedList',
-			'alignment',
-			'blockQuote',
-			'insertTable',
-			'|',
-			'undo',
-			'redo'
-		]
-	},
-	table: {
-		contentToolbar: [
-			'tableColumn',
-			'tableRow',
-			'mergeTableCells'
-		]
-	},
-	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+  toolbar: {
+  items: [
+      'heading',
+      '|',
+      'bold',
+      'italic',
+      'link',
+      '|',
+      'fontFamily',
+      'fontSize',
+      'highlight',
+      '|',
+      'bulletedList',
+      'numberedList',
+      'alignment',
+      'blockQuote',
+      'insertTable',
+      '|',
+      'undo',
+      'redo',
+      '|',
+      'imageUpload'
+  ]
+  },
+  table: {
+  contentToolbar: [
+  'tableColumn',
+  'tableRow',
+  'mergeTableCells'
+  ]
+  },
+  // This value must be kept in sync with the language defined in webpack.config.js.
+  language: 'en'
 };
