@@ -30,6 +30,8 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -43,6 +45,7 @@ ClassicEditor.builtinPlugins = [
 	Essentials,
 	Font,
 	Heading,
+	Highlight,
 	Image,
 	ImageCaption,
 	ImageStyle,
