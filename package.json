@@ -1,6 +1,6 @@
 {
   "name": "@traveljoy/ckeditor5-build-custom",
-  "version": "12.0.3",
+  "version": "12.0.4",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -91,6 +91,6 @@
   "dependencies": {
     "@ckeditor/ckeditor5-alignment": "^11.0.0",
     "@ckeditor/ckeditor5-font": "^11.0.0",
-    "@ckeditor/ckeditor5-highlight": "^11.0.1"
+    "@ckeditor/ckeditor5-highlight": "^10.0.4"
   }
 }
